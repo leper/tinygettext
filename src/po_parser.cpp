@@ -46,7 +46,8 @@ POParser::parse(const std::string& filename, std::istream& in, Dictionary& dict)
 
 class POParserError {};
 
-POParser::POParser(const std::string& filename_, std::istream& in_, Dictionary& dict_, bool use_fuzzy_) :
+POParser::POParser(const std::string& filename_, std::istream& in_, Dictionary& dict_, bool use_fuzzy_)
+  :
   filename(filename_),
   in(in_),
   dict(dict_),

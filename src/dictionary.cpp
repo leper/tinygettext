@@ -35,7 +35,8 @@ std::ostream& operator<<(std::ostream& o, const std::vector<std::string>& v)
   return o;
 }
 
-Dictionary::Dictionary(const std::string& charset_) :
+Dictionary::Dictionary(const std::string& charset_)
+  :
   entries(),
   ctxt_entries(),
   charset(charset_),

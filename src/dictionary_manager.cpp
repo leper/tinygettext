@@ -40,7 +40,8 @@ static bool has_suffix(const std::string& lhs, const std::string& rhs)
     return lhs.compare(lhs.length() - rhs.length(), rhs.length(), rhs) == 0;
 }
 
-DictionaryManager::DictionaryManager(const std::string& charset_) :
+DictionaryManager::DictionaryManager(const std::string& charset_)
+  :
   dictionaries(),
   search_path(),
   charset(charset_),

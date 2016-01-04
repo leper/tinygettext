@@ -50,7 +50,8 @@ Log::set_log_error_callback(log_callback_t callback)
   log_error_callback = callback;
 }
 
-Log::Log(log_callback_t callback_) :
+Log::Log(log_callback_t callback_)
+  :
   callback(callback_),
   out()
 {
