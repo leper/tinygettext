@@ -1,0 +1,19 @@
+---
+Language:        Cpp
+Standard: Cpp11
+
+AlwaysBreakAfterDefinitionReturnType: true
+BreakBeforeBraces: Allman # TODO: custom in 3.8
+ColumnLimit:     0
+ContinuationIndentWidth: 2
+IndentWidth: 2
+PointerAlignment: Left
+TabWidth:        2
+UseTab: Never
+
+# These only have an effect if the : is on a new line, else we get strange alignment
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+ConstructorInitializerIndentWidth: 2
+
+# TODO: Enable once 3.8 is released
+# AlignConsecutiveAssignments
